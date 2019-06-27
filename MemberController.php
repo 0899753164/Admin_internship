@@ -109,7 +109,8 @@ class MemberController extends Controller
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://us-central1-nilecon-chat-bot.cloudfunctions.net/adduser" .$qry_str,
+//          cloudfunctions.net you must be deploy with node.js then can search in google are firebase cloudfunctions http request
+        CURLOPT_URL => "https://us-central1-firbasename.cloudfunctions.net/adduser" .$qry_str,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,
@@ -235,6 +236,7 @@ class MemberController extends Controller
           $curl = curl_init();
 
           curl_setopt_array($curl, array(
+//            //          cloudfunctions.net you must be deploy with node.js then can search in google are firebase cloudfunctions http request
             CURLOPT_URL => "https://us-central1-nilecon-chat-bot.cloudfunctions.net/adduser" .$qry_str,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
@@ -356,7 +358,9 @@ class MemberController extends Controller
           $curl = curl_init();
 
           curl_setopt_array($curl, array(
-            CURLOPT_URL => "https://us-central1-nilecon-chat-bot.cloudfunctions.net/adduser" .$qry_str,
+           //          cloudfunctions.net you must be deploy with node.js then can search in google are firebase cloudfunctions http request
+        // for use donn't forgot are rename "https://us-central1-firebasename.cloudfunctions.net/adduser" 
+            CURLOPT_URL => "https://us-central1-firebasename.cloudfunctions.net/adduser" .$qry_str,
             CURLOPT_RETURNTRANSFER => true,
             CURLOPT_ENCODING => "",
             CURLOPT_MAXREDIRS => 10,
@@ -514,7 +518,10 @@ class MemberController extends Controller
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://us-central1-nilecon-chat-bot.cloudfunctions.net/deluser" .$urtdbdel,
+ //          cloudfunctions.net you must be deploy with node.js then can search in google are firebase cloudfunctions http request 
+//  and then delete user on firebase realtime database and delete user account auth can search in google example are cloud functions firebase http auht or delete user account
+ //for use don't forgot are rename "https://us-central1-firebasename.cloudfunctions.net/deluser"
+  CURLOPT_URL => "https://us-central1-firebasename.cloudfunctions.net/deluser" .$urtdbdel,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -573,7 +580,9 @@ else
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://us-central1-nilecon-chat-bot.cloudfunctions.net/adduser" .$qry_str,
+         //          cloudfunctions.net you must be deploy with node.js then can search in google are firebase cloudfunctions http request 
+ //for use don't forgot are rename "https://us-central1-firebasename.cloudfunctions.net/adduser"
+        CURLOPT_URL => "https://us-central1-firebasename.cloudfunctions.net/adduser" .$qry_str,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,
@@ -678,7 +687,10 @@ else
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://us-central1-nilecon-chat-bot.cloudfunctions.net/deluser" .$urtdbdel,
+          //          cloudfunctions.net you must be deploy with node.js then can search in google are firebase cloudfunctions http request 
+ //for use don't forgot are rename "https://us-central1-firebasename.cloudfunctions.net/deluser"
+
+  CURLOPT_URL => "https://us-central1-firebasename.cloudfunctions.net/deluser" .$urtdbdel,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
@@ -732,7 +744,10 @@ if ($err) {
         $curl = curl_init();
 
         curl_setopt_array($curl, array(
-        CURLOPT_URL => "https://us-central1-nilecon-chat-bot.cloudfunctions.net/adduser" .$qry_str,
+                   //          cloudfunctions.net you must be deploy with node.js then can search in google are firebase cloudfunctions http request 
+ //for use don't forgot are rename "https://us-central1-firebasename.cloudfunctions.net/adduser"
+
+        CURLOPT_URL => "https://us-central1-firebasename.cloudfunctions.net/adduser" .$qry_str,
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_ENCODING => "",
         CURLOPT_MAXREDIRS => 10,
@@ -832,7 +847,10 @@ if ($err) {
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://us-central1-nilecon-chat-bot.cloudfunctions.net/deluser" .$urtdbdel,
+           //          cloudfunctions.net you must be deploy with node.js then can search in google are firebase cloudfunctions http request 
+ //for use don't forgot are rename "https://us-central1-firebasename.cloudfunctions.net/deluser"
+
+  CURLOPT_URL => "https://us-central1-firebasename.cloudfunctions.net/deluser" .$urtdbdel,
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
